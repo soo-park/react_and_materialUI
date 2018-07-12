@@ -5,7 +5,7 @@ import green from '@material-ui/core/colors/green';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
 import TopBar from './TopBar/TopBar';
-import ProjectCard from './ProjectCard/ProjectCard';
+import Landing from './pages/Landing';
 
 // A theme with custom primary and secondary color.
 // It's optional.
@@ -32,8 +32,6 @@ function withRoot(Component) {
       <MuiThemeProvider theme={theme}>
         {/* CssBaseline definds general page and layout prior to components */}
         <CssBaseline />
-        <TopBar />
-        <ProjectCard />
         <Component {...props} />
       </MuiThemeProvider>
     );

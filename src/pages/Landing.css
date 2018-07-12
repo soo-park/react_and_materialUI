@@ -1,0 +1,26 @@
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.plus {
+  align-self: center;
+}
+
+#newtext {
+  align-self: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  /* background-color: red !important; */
+  width: 25%;
+  height: 100px;
+}
